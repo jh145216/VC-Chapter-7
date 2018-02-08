@@ -16,5 +16,18 @@ namespace Delgados_Taocs
         {
             InitializeComponent();
         }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            int tacos;
+            int burritos;
+            int refriedbeans;
+            int fajita;
+            int pop;
+            int cheesequesadilla;
+            int yes;
+            int no;
+
+        }
     }
 }

@@ -57,6 +57,7 @@
             this.btnOrder.TabIndex = 60;
             this.btnOrder.Text = "Order";
             this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // lblExtraTotal
             // 
