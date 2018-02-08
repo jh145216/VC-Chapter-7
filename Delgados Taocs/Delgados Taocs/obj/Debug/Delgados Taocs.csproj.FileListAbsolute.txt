@@ -1,2 +1,10 @@
 C:\Users\jh145216\AppData\Local\Temporary Projects\Delgados Taocs\bin\Debug\Delgados Taocs.exe.config
 C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\bin\Debug\Delgados Taocs.exe.config
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\obj\Debug\Delgados Taocs.csprojResolveAssemblyReference.cache
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\obj\Debug\Delgados_Taocs.Form1.resources
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\obj\Debug\Delgados_Taocs.Properties.Resources.resources
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\obj\Debug\Delgados Taocs.csproj.GenerateResource.Cache
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\bin\Debug\Delgados Taocs.exe
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\bin\Debug\Delgados Taocs.pdb
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\obj\Debug\Delgados Taocs.exe
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\obj\Debug\Delgados Taocs.pdb
