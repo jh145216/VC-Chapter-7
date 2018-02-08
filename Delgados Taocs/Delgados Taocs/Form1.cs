@@ -41,7 +41,7 @@ namespace Delgados_Taocs
 
             if (radReFriedBeans.Checked == true)
             {
-                lblMainTotal.Text = "$0.50";
+                lblMainTotal.Text = "$0.50"; 
             }
 
             if (radFajita.Checked == true)
@@ -57,6 +57,14 @@ namespace Delgados_Taocs
             if (radCheeseQuesadilla.Checked == true)
             {
                 lblMainTotal.Text = "$1.75";
+            }
+
+            if (radYes.Checked == true)
+            {
+                if (radReFriedBeans.Checked == true)
+                {
+                    lblExtraTotal.Text = "$0.50";
+                }
             }
 
             /*radTacos.Text = (radTacos.Text);

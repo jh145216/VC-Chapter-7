@@ -102,7 +102,6 @@
             this.radNo.Name = "radNo";
             this.radNo.Size = new System.Drawing.Size(39, 17);
             this.radNo.TabIndex = 55;
-            this.radNo.TabStop = true;
             this.radNo.Text = "No";
             this.radNo.UseVisualStyleBackColor = true;
             // 
@@ -113,7 +112,6 @@
             this.radYes.Name = "radYes";
             this.radYes.Size = new System.Drawing.Size(43, 17);
             this.radYes.TabIndex = 54;
-            this.radYes.TabStop = true;
             this.radYes.Text = "Yes";
             this.radYes.UseVisualStyleBackColor = true;
             // 
@@ -151,7 +149,6 @@
             this.radCheeseQuesadilla.Name = "radCheeseQuesadilla";
             this.radCheeseQuesadilla.Size = new System.Drawing.Size(143, 17);
             this.radCheeseQuesadilla.TabIndex = 50;
-            this.radCheeseQuesadilla.TabStop = true;
             this.radCheeseQuesadilla.Text = "Cheese Quesadilla $1.75";
             this.radCheeseQuesadilla.UseVisualStyleBackColor = true;
             // 
@@ -162,7 +159,6 @@
             this.radPop.Name = "radPop";
             this.radPop.Size = new System.Drawing.Size(74, 17);
             this.radPop.TabIndex = 49;
-            this.radPop.TabStop = true;
             this.radPop.Text = "Pop $1.00";
             this.radPop.UseVisualStyleBackColor = true;
             // 
@@ -173,7 +169,6 @@
             this.radFajita.Name = "radFajita";
             this.radFajita.Size = new System.Drawing.Size(80, 17);
             this.radFajita.TabIndex = 48;
-            this.radFajita.TabStop = true;
             this.radFajita.Text = "Fajita $1.50";
             this.radFajita.UseVisualStyleBackColor = true;
             // 
@@ -184,7 +179,6 @@
             this.radReFriedBeans.Name = "radReFriedBeans";
             this.radReFriedBeans.Size = new System.Drawing.Size(125, 17);
             this.radReFriedBeans.TabIndex = 47;
-            this.radReFriedBeans.TabStop = true;
             this.radReFriedBeans.Text = "ReFried Beans $0.50";
             this.radReFriedBeans.UseVisualStyleBackColor = true;
             // 
@@ -195,7 +189,6 @@
             this.radBurritos.Name = "radBurritos";
             this.radBurritos.Size = new System.Drawing.Size(90, 17);
             this.radBurritos.TabIndex = 46;
-            this.radBurritos.TabStop = true;
             this.radBurritos.Text = "Burritos $1.99";
             this.radBurritos.UseVisualStyleBackColor = true;
             // 
@@ -206,7 +199,6 @@
             this.radTacos.Name = "radTacos";
             this.radTacos.Size = new System.Drawing.Size(85, 17);
             this.radTacos.TabIndex = 45;
-            this.radTacos.TabStop = true;
             this.radTacos.Text = "Tacos $0.99";
             this.radTacos.UseVisualStyleBackColor = true;
             // 
