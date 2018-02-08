@@ -1,1 +1,2 @@
 C:\Users\jh145216\AppData\Local\Temporary Projects\Delgados Taocs\bin\Debug\Delgados Taocs.exe.config
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Delgados Taocs\Delgados Taocs\bin\Debug\Delgados Taocs.exe.config
