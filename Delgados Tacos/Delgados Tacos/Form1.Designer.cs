@@ -45,6 +45,7 @@
             this.radTacos = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnOrder = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblExtraTotal
@@ -86,7 +87,7 @@
             // radNo
             // 
             this.radNo.AutoSize = true;
-            this.radNo.Location = new System.Drawing.Point(425, 210);
+            this.radNo.Location = new System.Drawing.Point(425, 302);
             this.radNo.Name = "radNo";
             this.radNo.Size = new System.Drawing.Size(39, 17);
             this.radNo.TabIndex = 37;
@@ -97,7 +98,7 @@
             // radYes
             // 
             this.radYes.AutoSize = true;
-            this.radYes.Location = new System.Drawing.Point(316, 210);
+            this.radYes.Location = new System.Drawing.Point(316, 302);
             this.radYes.Name = "radYes";
             this.radYes.Size = new System.Drawing.Size(43, 17);
             this.radYes.TabIndex = 36;
@@ -109,7 +110,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(272, 177);
+            this.label4.Location = new System.Drawing.Point(267, 269);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(252, 17);
             this.label4.TabIndex = 35;
@@ -117,7 +118,7 @@
             // 
             // txtEnterNameHere
             // 
-            this.txtEnterNameHere.Location = new System.Drawing.Point(316, 122);
+            this.txtEnterNameHere.Location = new System.Drawing.Point(316, 196);
             this.txtEnterNameHere.Name = "txtEnterNameHere";
             this.txtEnterNameHere.Size = new System.Drawing.Size(148, 20);
             this.txtEnterNameHere.TabIndex = 34;
@@ -126,7 +127,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(313, 85);
+            this.label3.Location = new System.Drawing.Point(313, 162);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(151, 17);
             this.label3.TabIndex = 33;
@@ -218,11 +219,23 @@
             this.label1.TabIndex = 25;
             this.label1.Text = "Welcome to Delgados Tacos";
             // 
+            // btnOrder
+            // 
+            this.btnOrder.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOrder.Location = new System.Drawing.Point(316, 85);
+            this.btnOrder.Name = "btnOrder";
+            this.btnOrder.Size = new System.Drawing.Size(148, 57);
+            this.btnOrder.TabIndex = 42;
+            this.btnOrder.Text = "Order";
+            this.btnOrder.UseVisualStyleBackColor = true;
+            this.btnOrder.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(543, 458);
+            this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.lblExtraTotal);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.lblMainTotal);
@@ -266,6 +279,7 @@
         private System.Windows.Forms.RadioButton radTacos;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnOrder;
     }
 }
 
