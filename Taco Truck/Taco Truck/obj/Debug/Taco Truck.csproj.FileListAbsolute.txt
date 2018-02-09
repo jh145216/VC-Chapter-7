@@ -4,3 +4,9 @@ C:\Users\jh145216\AppData\Local\Temporary Projects\Taco Truck\bin\Debug\Taco Tru
 C:\Users\jh145216\AppData\Local\Temporary Projects\Taco Truck\obj\Debug\Taco Truck.csprojResolveAssemblyReference.cache
 C:\Users\jh145216\AppData\Local\Temporary Projects\Taco Truck\obj\Debug\Taco Truck.exe
 C:\Users\jh145216\AppData\Local\Temporary Projects\Taco Truck\obj\Debug\Taco Truck.pdb
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Taco Truck\Taco Truck\bin\Debug\Taco Truck.exe.config
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Taco Truck\Taco Truck\obj\Debug\Taco Truck.exe
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Taco Truck\Taco Truck\obj\Debug\Taco Truck.pdb
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Taco Truck\Taco Truck\bin\Debug\Taco Truck.exe
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Taco Truck\Taco Truck\bin\Debug\Taco Truck.pdb
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Taco Truck\Taco Truck\obj\Debug\Taco Truck.csprojResolveAssemblyReference.cache

@@ -10,10 +10,12 @@ namespace Taco_Truck
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" ***************");
-            Console.WriteLine("/              *");
-            Console.WriteLine("****************");
-            Console.WriteLine("*    *       *  ");
+            Console.WriteLine("----------------------");
+            Console.WriteLine("| Delgados Tacos     |");
+            Console.WriteLine("|                    |");
+            Console.WriteLine("|                    |");
+            Console.WriteLine("---|-|---------|-|----");
+            Console.WriteLine("    o           o ");
         }
     }
 }
