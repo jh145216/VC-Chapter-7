@@ -46,12 +46,18 @@
             this.radTacos = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnOrder
             // 
             this.btnOrder.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOrder.Location = new System.Drawing.Point(306, 77);
+            this.btnOrder.Location = new System.Drawing.Point(334, 77);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Size = new System.Drawing.Size(148, 57);
             this.btnOrder.TabIndex = 60;
@@ -119,7 +125,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(257, 261);
+            this.label4.Location = new System.Drawing.Point(283, 261);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(252, 17);
             this.label4.TabIndex = 53;
@@ -127,7 +133,7 @@
             // 
             // txtEnterNameHere
             // 
-            this.txtEnterNameHere.Location = new System.Drawing.Point(306, 188);
+            this.txtEnterNameHere.Location = new System.Drawing.Point(334, 190);
             this.txtEnterNameHere.Name = "txtEnterNameHere";
             this.txtEnterNameHere.Size = new System.Drawing.Size(148, 20);
             this.txtEnterNameHere.TabIndex = 52;
@@ -136,7 +142,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(303, 154);
+            this.label3.Location = new System.Drawing.Point(331, 147);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(151, 17);
             this.label3.TabIndex = 51;
@@ -145,7 +151,7 @@
             // radCheeseQuesadilla
             // 
             this.radCheeseQuesadilla.AutoSize = true;
-            this.radCheeseQuesadilla.Location = new System.Drawing.Point(69, 294);
+            this.radCheeseQuesadilla.Location = new System.Drawing.Point(26, 281);
             this.radCheeseQuesadilla.Name = "radCheeseQuesadilla";
             this.radCheeseQuesadilla.Size = new System.Drawing.Size(143, 17);
             this.radCheeseQuesadilla.TabIndex = 50;
@@ -155,7 +161,7 @@
             // radPop
             // 
             this.radPop.AutoSize = true;
-            this.radPop.Location = new System.Drawing.Point(69, 262);
+            this.radPop.Location = new System.Drawing.Point(26, 249);
             this.radPop.Name = "radPop";
             this.radPop.Size = new System.Drawing.Size(74, 17);
             this.radPop.TabIndex = 49;
@@ -165,7 +171,7 @@
             // radFajita
             // 
             this.radFajita.AutoSize = true;
-            this.radFajita.Location = new System.Drawing.Point(69, 226);
+            this.radFajita.Location = new System.Drawing.Point(26, 213);
             this.radFajita.Name = "radFajita";
             this.radFajita.Size = new System.Drawing.Size(80, 17);
             this.radFajita.TabIndex = 48;
@@ -175,7 +181,7 @@
             // radReFriedBeans
             // 
             this.radReFriedBeans.AutoSize = true;
-            this.radReFriedBeans.Location = new System.Drawing.Point(69, 191);
+            this.radReFriedBeans.Location = new System.Drawing.Point(26, 178);
             this.radReFriedBeans.Name = "radReFriedBeans";
             this.radReFriedBeans.Size = new System.Drawing.Size(125, 17);
             this.radReFriedBeans.TabIndex = 47;
@@ -185,7 +191,7 @@
             // radBurritos
             // 
             this.radBurritos.AutoSize = true;
-            this.radBurritos.Location = new System.Drawing.Point(69, 155);
+            this.radBurritos.Location = new System.Drawing.Point(26, 142);
             this.radBurritos.Name = "radBurritos";
             this.radBurritos.Size = new System.Drawing.Size(90, 17);
             this.radBurritos.TabIndex = 46;
@@ -195,7 +201,7 @@
             // radTacos
             // 
             this.radTacos.AutoSize = true;
-            this.radTacos.Location = new System.Drawing.Point(69, 117);
+            this.radTacos.Location = new System.Drawing.Point(26, 104);
             this.radTacos.Name = "radTacos";
             this.radTacos.Size = new System.Drawing.Size(85, 17);
             this.radTacos.TabIndex = 45;
@@ -222,11 +228,60 @@
             this.label1.TabIndex = 43;
             this.label1.Text = "Welcome to Delgados Tacos";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(184, 107);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(71, 20);
+            this.textBox1.TabIndex = 61;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(184, 142);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(71, 20);
+            this.textBox2.TabIndex = 62;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(184, 178);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(71, 20);
+            this.textBox3.TabIndex = 63;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(184, 213);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(71, 20);
+            this.textBox4.TabIndex = 64;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(184, 249);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(71, 20);
+            this.textBox5.TabIndex = 65;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(184, 278);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(71, 20);
+            this.textBox6.TabIndex = 66;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 443);
+            this.ClientSize = new System.Drawing.Size(547, 443);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.lblExtraTotal);
             this.Controls.Add(this.label6);
@@ -247,6 +302,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Delgados Tacos";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,6 +328,12 @@
         private System.Windows.Forms.RadioButton radTacos;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
 

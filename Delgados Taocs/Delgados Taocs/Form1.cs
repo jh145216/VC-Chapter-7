@@ -61,20 +61,60 @@ namespace Delgados_Taocs
 
             if (radYes.Checked == true)
             {
+                if (radTacos.Checked == true)
+                {
+                    lblExtraTotal.Text = "$0.99";
+                }
+            }
+            if (radYes.Checked == true)
+            {
+                if(radBurritos.Checked == true)
+                {
+                    lblExtraTotal.Text = "$1.99";
+                }
+            }
+            if (radYes.Checked == true)
+            {
                 if (radReFriedBeans.Checked == true)
                 {
                     lblExtraTotal.Text = "$0.50";
                 }
             }
-
-            /*radTacos.Text = (radTacos.Text);
-            radBurritos.Text = (radBurritos.Text);
-            radReFriedBeans.Text = (radReFriedBeans.Text);
-            radFajita.Text = (radFajita.Text);
-            radPop.Text = (radPop.Text);
-            int cheesequesaddilla = (radCheeseQuesadilla.Text);
-            Console.WriteLine(radCheeseQuesadilla.Text);*/
+            if (radYes.Checked == true)
+            {
+                if (radFajita.Checked == true)
+                {
+                    lblExtraTotal.Text = "$1.50";
+                }
+            }
+            if (radYes.Checked == true)
+            {
+                if (radPop.Checked == true)
+                {
+                    lblExtraTotal.Text = "$1.00";
+                }
+            }
+            if (radYes.Checked == true)
+            {
+                if (radCheeseQuesadilla.Checked == true)
+                {
+                    lblExtraTotal.Text = "$1.75";
+                }
+            }
+            if (radNo.Checked == true)
+            {
+            }
+        }
+                private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+       
     }
 }
