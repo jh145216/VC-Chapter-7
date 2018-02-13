@@ -33,12 +33,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtEnterNameHere = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.radCheeseQuesadilla = new System.Windows.Forms.RadioButton();
-            this.radPop = new System.Windows.Forms.RadioButton();
-            this.radFajita = new System.Windows.Forms.RadioButton();
-            this.radReFriedBeans = new System.Windows.Forms.RadioButton();
-            this.radBurritos = new System.Windows.Forms.RadioButton();
-            this.radTacos = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTacosNumber = new System.Windows.Forms.TextBox();
@@ -47,6 +41,12 @@
             this.txtFajitasNumber = new System.Windows.Forms.TextBox();
             this.txtPopsNumber = new System.Windows.Forms.TextBox();
             this.txtCheeseQuesadillasNumber = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnOrder
@@ -94,66 +94,6 @@
             this.label3.Size = new System.Drawing.Size(151, 17);
             this.label3.TabIndex = 51;
             this.label3.Text = "Enter your name here";
-            // 
-            // radCheeseQuesadilla
-            // 
-            this.radCheeseQuesadilla.AutoSize = true;
-            this.radCheeseQuesadilla.Location = new System.Drawing.Point(26, 281);
-            this.radCheeseQuesadilla.Name = "radCheeseQuesadilla";
-            this.radCheeseQuesadilla.Size = new System.Drawing.Size(143, 17);
-            this.radCheeseQuesadilla.TabIndex = 50;
-            this.radCheeseQuesadilla.Text = "Cheese Quesadilla $1.75";
-            this.radCheeseQuesadilla.UseVisualStyleBackColor = true;
-            // 
-            // radPop
-            // 
-            this.radPop.AutoSize = true;
-            this.radPop.Location = new System.Drawing.Point(26, 249);
-            this.radPop.Name = "radPop";
-            this.radPop.Size = new System.Drawing.Size(74, 17);
-            this.radPop.TabIndex = 49;
-            this.radPop.Text = "Pop $1.00";
-            this.radPop.UseVisualStyleBackColor = true;
-            // 
-            // radFajita
-            // 
-            this.radFajita.AutoSize = true;
-            this.radFajita.Location = new System.Drawing.Point(26, 213);
-            this.radFajita.Name = "radFajita";
-            this.radFajita.Size = new System.Drawing.Size(80, 17);
-            this.radFajita.TabIndex = 48;
-            this.radFajita.Text = "Fajita $1.50";
-            this.radFajita.UseVisualStyleBackColor = true;
-            // 
-            // radReFriedBeans
-            // 
-            this.radReFriedBeans.AutoSize = true;
-            this.radReFriedBeans.Location = new System.Drawing.Point(26, 178);
-            this.radReFriedBeans.Name = "radReFriedBeans";
-            this.radReFriedBeans.Size = new System.Drawing.Size(125, 17);
-            this.radReFriedBeans.TabIndex = 47;
-            this.radReFriedBeans.Text = "ReFried Beans $0.50";
-            this.radReFriedBeans.UseVisualStyleBackColor = true;
-            // 
-            // radBurritos
-            // 
-            this.radBurritos.AutoSize = true;
-            this.radBurritos.Location = new System.Drawing.Point(26, 142);
-            this.radBurritos.Name = "radBurritos";
-            this.radBurritos.Size = new System.Drawing.Size(90, 17);
-            this.radBurritos.TabIndex = 46;
-            this.radBurritos.Text = "Burritos $1.99";
-            this.radBurritos.UseVisualStyleBackColor = true;
-            // 
-            // radTacos
-            // 
-            this.radTacos.AutoSize = true;
-            this.radTacos.Location = new System.Drawing.Point(26, 104);
-            this.radTacos.Name = "radTacos";
-            this.radTacos.Size = new System.Drawing.Size(85, 17);
-            this.radTacos.TabIndex = 45;
-            this.radTacos.Text = "Tacos $0.99";
-            this.radTacos.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -217,11 +157,77 @@
             this.txtCheeseQuesadillasNumber.Size = new System.Drawing.Size(71, 20);
             this.txtCheeseQuesadillasNumber.TabIndex = 66;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(26, 110);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(56, 17);
+            this.checkBox1.TabIndex = 67;
+            this.checkBox1.Text = "Taocs";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(26, 145);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(61, 17);
+            this.checkBox2.TabIndex = 68;
+            this.checkBox2.Text = "Burritos";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(26, 181);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(93, 17);
+            this.checkBox3.TabIndex = 69;
+            this.checkBox3.Text = "ReFriedBeans";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(26, 216);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(56, 17);
+            this.checkBox4.TabIndex = 70;
+            this.checkBox4.Text = "Fajitas";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(26, 252);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(50, 17);
+            this.checkBox5.TabIndex = 71;
+            this.checkBox5.Text = "Pops";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(26, 281);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(116, 17);
+            this.checkBox6.TabIndex = 72;
+            this.checkBox6.Text = "CheeseQuesadillas";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(545, 358);
+            this.Controls.Add(this.checkBox6);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.txtCheeseQuesadillasNumber);
             this.Controls.Add(this.txtPopsNumber);
             this.Controls.Add(this.txtFajitasNumber);
@@ -233,12 +239,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtEnterNameHere);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.radCheeseQuesadilla);
-            this.Controls.Add(this.radPop);
-            this.Controls.Add(this.radFajita);
-            this.Controls.Add(this.radReFriedBeans);
-            this.Controls.Add(this.radBurritos);
-            this.Controls.Add(this.radTacos);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -255,12 +255,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtEnterNameHere;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radCheeseQuesadilla;
-        private System.Windows.Forms.RadioButton radPop;
-        private System.Windows.Forms.RadioButton radFajita;
-        private System.Windows.Forms.RadioButton radReFriedBeans;
-        private System.Windows.Forms.RadioButton radBurritos;
-        private System.Windows.Forms.RadioButton radTacos;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtTacosNumber;
@@ -269,6 +263,12 @@
         private System.Windows.Forms.TextBox txtFajitasNumber;
         private System.Windows.Forms.TextBox txtPopsNumber;
         private System.Windows.Forms.TextBox txtCheeseQuesadillasNumber;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox6;
     }
 }
 

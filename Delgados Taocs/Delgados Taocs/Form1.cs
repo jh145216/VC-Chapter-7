@@ -19,46 +19,59 @@ namespace Delgados_Taocs
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            int tacos;
-            //int burritos;
-            //int refriedbeans;
-            //int fajita;
-            //int pop;
-            //int cheesequesadilla;
-
-            string numbersoftacos;
-
+            double tacosOrdered;
+            double totalTacosPrice;
+            double burritosOrdered;
+            double totalBurritosPrice;
+            double refriedbreansOrdered;
+            double totalRefriedbeansPrice;
+            double fajitasOrdered;
+            double totalFajitasPrice;
+            double popsOrdered;
+            double totalPopsPrice;
+            double cheesequesadillasOrdered;
+            double totalCheesequesadillasPrice;
 
             if (radTacos.Checked == true)
             {
-                int tacoOrdered;
-                
-                lblMainTotal.Text = //tacosOrdered * .99
+                tacosOrdered = Convert.ToDouble(txtTacosNumber.Text);
+                totalTacosPrice = tacosOrdered * .99;
+                lblMainTotal.Text = totalTacosPrice.ToString("c");
             }
 
             if (radBurritos.Checked == true)
             {
-                lblMainTotal.Text = "$1.99";
+                burritosOrdered = Convert.ToDouble(txtBurritosNumber.Text);
+                totalBurritosPrice = burritosOrdered * 1.99;
+                lblMainTotal.Text = totalBurritosPrice.ToString("c");
             }
 
             if (radReFriedBeans.Checked == true)
             {
-                lblMainTotal.Text = "$0.50";
+                refriedbreansOrdered = Convert.ToDouble(txtReFriedBeansNumber.Text);
+                totalRefriedbeansPrice = refriedbreansOrdered * .50;
+                lblMainTotal.Text = totalRefriedbeansPrice.ToString("c");
             }
 
             if (radFajita.Checked == true)
             {
-                lblMainTotal.Text = "$1.50";
+                fajitasOrdered = Convert.ToDouble(txtFajitasNumber.Text);
+                totalFajitasPrice = fajitasOrdered * 1.50;
+                lblMainTotal.Text = totalFajitasPrice.ToString("c");
             }
 
             if (radPop.Checked == true)
             {
-                lblMainTotal.Text = "$1.00";
+                popsOrdered = Convert.ToDouble(txtPopsNumber.Text);
+                totalPopsPrice = popsOrdered * 1.00;
+                lblMainTotal.Text = totalPopsPrice.ToString("c");
             }
 
             if (radCheeseQuesadilla.Checked == true)
             {
-                lblMainTotal.Text = "$1.75";
+                cheesequesadillasOrdered = Convert.ToDouble(txtCheeseQuesadillasNumber.Text);
+                totalCheesequesadillasPrice = cheesequesadillasOrdered * 1.75;
+                lblMainTotal.Text = totalCheesequesadillasPrice.ToString("c");
             }
         }
     }
