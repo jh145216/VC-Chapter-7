@@ -41,12 +41,12 @@
             this.txtFajitasNumber = new System.Windows.Forms.TextBox();
             this.txtPopsNumber = new System.Windows.Forms.TextBox();
             this.txtCheeseQuesadillasNumber = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.chkTacos = new System.Windows.Forms.CheckBox();
+            this.chkBurritos = new System.Windows.Forms.CheckBox();
+            this.chkReFriedBeans = new System.Windows.Forms.CheckBox();
+            this.chkFajitas = new System.Windows.Forms.CheckBox();
+            this.chkPops = new System.Windows.Forms.CheckBox();
+            this.chkCheeseQuesadillas = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnOrder
@@ -157,77 +157,77 @@
             this.txtCheeseQuesadillasNumber.Size = new System.Drawing.Size(71, 20);
             this.txtCheeseQuesadillasNumber.TabIndex = 66;
             // 
-            // checkBox1
+            // chkTacos
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(26, 110);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(56, 17);
-            this.checkBox1.TabIndex = 67;
-            this.checkBox1.Text = "Taocs";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkTacos.AutoSize = true;
+            this.chkTacos.Location = new System.Drawing.Point(26, 110);
+            this.chkTacos.Name = "chkTacos";
+            this.chkTacos.Size = new System.Drawing.Size(86, 17);
+            this.chkTacos.TabIndex = 67;
+            this.chkTacos.Text = "Taocs $0.99";
+            this.chkTacos.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // chkBurritos
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(26, 145);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(61, 17);
-            this.checkBox2.TabIndex = 68;
-            this.checkBox2.Text = "Burritos";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkBurritos.AutoSize = true;
+            this.chkBurritos.Location = new System.Drawing.Point(26, 145);
+            this.chkBurritos.Name = "chkBurritos";
+            this.chkBurritos.Size = new System.Drawing.Size(91, 17);
+            this.chkBurritos.TabIndex = 68;
+            this.chkBurritos.Text = "Burritos $1.99";
+            this.chkBurritos.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // chkReFriedBeans
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(26, 181);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(93, 17);
-            this.checkBox3.TabIndex = 69;
-            this.checkBox3.Text = "ReFriedBeans";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkReFriedBeans.AutoSize = true;
+            this.chkReFriedBeans.Location = new System.Drawing.Point(26, 181);
+            this.chkReFriedBeans.Name = "chkReFriedBeans";
+            this.chkReFriedBeans.Size = new System.Drawing.Size(123, 17);
+            this.chkReFriedBeans.TabIndex = 69;
+            this.chkReFriedBeans.Text = "ReFriedBeans $0.50";
+            this.chkReFriedBeans.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // chkFajitas
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(26, 216);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(56, 17);
-            this.checkBox4.TabIndex = 70;
-            this.checkBox4.Text = "Fajitas";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.chkFajitas.AutoSize = true;
+            this.chkFajitas.Location = new System.Drawing.Point(26, 216);
+            this.chkFajitas.Name = "chkFajitas";
+            this.chkFajitas.Size = new System.Drawing.Size(86, 17);
+            this.chkFajitas.TabIndex = 70;
+            this.chkFajitas.Text = "Fajitas $1.50";
+            this.chkFajitas.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // chkPops
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(26, 252);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(50, 17);
-            this.checkBox5.TabIndex = 71;
-            this.checkBox5.Text = "Pops";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.chkPops.AutoSize = true;
+            this.chkPops.Location = new System.Drawing.Point(26, 252);
+            this.chkPops.Name = "chkPops";
+            this.chkPops.Size = new System.Drawing.Size(80, 17);
+            this.chkPops.TabIndex = 71;
+            this.chkPops.Text = "Pops $1.00";
+            this.chkPops.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // chkCheeseQuesadillas
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(26, 281);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(116, 17);
-            this.checkBox6.TabIndex = 72;
-            this.checkBox6.Text = "CheeseQuesadillas";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.chkCheeseQuesadillas.AutoSize = true;
+            this.chkCheeseQuesadillas.Location = new System.Drawing.Point(26, 281);
+            this.chkCheeseQuesadillas.Name = "chkCheeseQuesadillas";
+            this.chkCheeseQuesadillas.Size = new System.Drawing.Size(146, 17);
+            this.chkCheeseQuesadillas.TabIndex = 72;
+            this.chkCheeseQuesadillas.Text = "CheeseQuesadillas $1.75";
+            this.chkCheeseQuesadillas.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(545, 358);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chkCheeseQuesadillas);
+            this.Controls.Add(this.chkPops);
+            this.Controls.Add(this.chkFajitas);
+            this.Controls.Add(this.chkReFriedBeans);
+            this.Controls.Add(this.chkBurritos);
+            this.Controls.Add(this.chkTacos);
             this.Controls.Add(this.txtCheeseQuesadillasNumber);
             this.Controls.Add(this.txtPopsNumber);
             this.Controls.Add(this.txtFajitasNumber);
@@ -263,12 +263,12 @@
         private System.Windows.Forms.TextBox txtFajitasNumber;
         private System.Windows.Forms.TextBox txtPopsNumber;
         private System.Windows.Forms.TextBox txtCheeseQuesadillasNumber;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox chkTacos;
+        private System.Windows.Forms.CheckBox chkBurritos;
+        private System.Windows.Forms.CheckBox chkReFriedBeans;
+        private System.Windows.Forms.CheckBox chkFajitas;
+        private System.Windows.Forms.CheckBox chkPops;
+        private System.Windows.Forms.CheckBox chkCheeseQuesadillas;
     }
 }
 
