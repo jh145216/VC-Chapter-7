@@ -13,7 +13,8 @@ namespace Taco_Truck
             Console.WriteLine("----------------------");
             Console.WriteLine("| Delgados Tacos     |");
             Console.WriteLine("|                    |");
-            Console.WriteLine("|                    |");
+            Console.WriteLine("|                        |");
+            Console.WriteLine("|                        |");
             Console.WriteLine("---|-|---------|-|----");
             Console.WriteLine("    o           o ");
         }

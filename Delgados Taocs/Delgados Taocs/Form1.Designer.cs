@@ -221,7 +221,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(545, 358);
+            this.ClientSize = new System.Drawing.Size(546, 361);
             this.Controls.Add(this.chkCheeseQuesadillas);
             this.Controls.Add(this.chkPops);
             this.Controls.Add(this.chkFajitas);

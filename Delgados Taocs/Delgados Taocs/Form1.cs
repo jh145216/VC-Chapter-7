@@ -67,6 +67,11 @@ namespace Delgados_Taocs
                 totalCheesequesadillasPrice = cheesequesadillasOrdered * 1.75;
                 lblMainTotal.Text = totalCheesequesadillasPrice.ToString("c");
             }
+
+            {
+                Console.WriteLine("we will now throw a NullReferenceException");
+                throw new NullReferenceException("this is the exception thrown by the console app");
+            }
         }
     }
 }
