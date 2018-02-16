@@ -47,6 +47,8 @@
             this.chkFajitas = new System.Windows.Forms.CheckBox();
             this.chkPops = new System.Windows.Forms.CheckBox();
             this.chkCheeseQuesadillas = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnOrder
@@ -63,16 +65,16 @@
             // lblMainTotal
             // 
             this.lblMainTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblMainTotal.Location = new System.Drawing.Point(334, 291);
+            this.lblMainTotal.Location = new System.Drawing.Point(334, 292);
             this.lblMainTotal.Name = "lblMainTotal";
-            this.lblMainTotal.Size = new System.Drawing.Size(111, 46);
+            this.lblMainTotal.Size = new System.Drawing.Size(148, 46);
             this.lblMainTotal.TabIndex = 57;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(349, 252);
+            this.label5.Location = new System.Drawing.Point(369, 253);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 17);
             this.label5.TabIndex = 56;
@@ -99,7 +101,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(23, 77);
+            this.label2.Location = new System.Drawing.Point(23, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(202, 17);
             this.label2.TabIndex = 44;
@@ -117,42 +119,42 @@
             // 
             // txtTacosNumber
             // 
-            this.txtTacosNumber.Location = new System.Drawing.Point(184, 107);
+            this.txtTacosNumber.Location = new System.Drawing.Point(178, 32);
             this.txtTacosNumber.Name = "txtTacosNumber";
             this.txtTacosNumber.Size = new System.Drawing.Size(71, 20);
             this.txtTacosNumber.TabIndex = 61;
             // 
             // txtBurritosNumber
             // 
-            this.txtBurritosNumber.Location = new System.Drawing.Point(184, 142);
+            this.txtBurritosNumber.Location = new System.Drawing.Point(178, 67);
             this.txtBurritosNumber.Name = "txtBurritosNumber";
             this.txtBurritosNumber.Size = new System.Drawing.Size(71, 20);
             this.txtBurritosNumber.TabIndex = 62;
             // 
             // txtReFriedBeansNumber
             // 
-            this.txtReFriedBeansNumber.Location = new System.Drawing.Point(184, 178);
+            this.txtReFriedBeansNumber.Location = new System.Drawing.Point(178, 103);
             this.txtReFriedBeansNumber.Name = "txtReFriedBeansNumber";
             this.txtReFriedBeansNumber.Size = new System.Drawing.Size(71, 20);
             this.txtReFriedBeansNumber.TabIndex = 63;
             // 
             // txtFajitasNumber
             // 
-            this.txtFajitasNumber.Location = new System.Drawing.Point(184, 213);
+            this.txtFajitasNumber.Location = new System.Drawing.Point(178, 138);
             this.txtFajitasNumber.Name = "txtFajitasNumber";
             this.txtFajitasNumber.Size = new System.Drawing.Size(71, 20);
             this.txtFajitasNumber.TabIndex = 64;
             // 
             // txtPopsNumber
             // 
-            this.txtPopsNumber.Location = new System.Drawing.Point(184, 249);
+            this.txtPopsNumber.Location = new System.Drawing.Point(178, 174);
             this.txtPopsNumber.Name = "txtPopsNumber";
             this.txtPopsNumber.Size = new System.Drawing.Size(71, 20);
             this.txtPopsNumber.TabIndex = 65;
             // 
             // txtCheeseQuesadillasNumber
             // 
-            this.txtCheeseQuesadillasNumber.Location = new System.Drawing.Point(184, 278);
+            this.txtCheeseQuesadillasNumber.Location = new System.Drawing.Point(178, 203);
             this.txtCheeseQuesadillasNumber.Name = "txtCheeseQuesadillasNumber";
             this.txtCheeseQuesadillasNumber.Size = new System.Drawing.Size(71, 20);
             this.txtCheeseQuesadillasNumber.TabIndex = 66;
@@ -160,7 +162,7 @@
             // chkTacos
             // 
             this.chkTacos.AutoSize = true;
-            this.chkTacos.Location = new System.Drawing.Point(26, 110);
+            this.chkTacos.Location = new System.Drawing.Point(20, 35);
             this.chkTacos.Name = "chkTacos";
             this.chkTacos.Size = new System.Drawing.Size(86, 17);
             this.chkTacos.TabIndex = 67;
@@ -170,7 +172,7 @@
             // chkBurritos
             // 
             this.chkBurritos.AutoSize = true;
-            this.chkBurritos.Location = new System.Drawing.Point(26, 145);
+            this.chkBurritos.Location = new System.Drawing.Point(20, 70);
             this.chkBurritos.Name = "chkBurritos";
             this.chkBurritos.Size = new System.Drawing.Size(91, 17);
             this.chkBurritos.TabIndex = 68;
@@ -180,7 +182,7 @@
             // chkReFriedBeans
             // 
             this.chkReFriedBeans.AutoSize = true;
-            this.chkReFriedBeans.Location = new System.Drawing.Point(26, 181);
+            this.chkReFriedBeans.Location = new System.Drawing.Point(20, 106);
             this.chkReFriedBeans.Name = "chkReFriedBeans";
             this.chkReFriedBeans.Size = new System.Drawing.Size(123, 17);
             this.chkReFriedBeans.TabIndex = 69;
@@ -190,7 +192,7 @@
             // chkFajitas
             // 
             this.chkFajitas.AutoSize = true;
-            this.chkFajitas.Location = new System.Drawing.Point(26, 216);
+            this.chkFajitas.Location = new System.Drawing.Point(20, 141);
             this.chkFajitas.Name = "chkFajitas";
             this.chkFajitas.Size = new System.Drawing.Size(86, 17);
             this.chkFajitas.TabIndex = 70;
@@ -200,7 +202,7 @@
             // chkPops
             // 
             this.chkPops.AutoSize = true;
-            this.chkPops.Location = new System.Drawing.Point(26, 252);
+            this.chkPops.Location = new System.Drawing.Point(20, 177);
             this.chkPops.Name = "chkPops";
             this.chkPops.Size = new System.Drawing.Size(80, 17);
             this.chkPops.TabIndex = 71;
@@ -210,30 +212,40 @@
             // chkCheeseQuesadillas
             // 
             this.chkCheeseQuesadillas.AutoSize = true;
-            this.chkCheeseQuesadillas.Location = new System.Drawing.Point(26, 281);
+            this.chkCheeseQuesadillas.Location = new System.Drawing.Point(20, 206);
             this.chkCheeseQuesadillas.Name = "chkCheeseQuesadillas";
             this.chkCheeseQuesadillas.Size = new System.Drawing.Size(146, 17);
             this.chkCheeseQuesadillas.TabIndex = 72;
             this.chkCheeseQuesadillas.Text = "CheeseQuesadillas $1.75";
             this.chkCheeseQuesadillas.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtBurritosNumber);
+            this.groupBox1.Controls.Add(this.chkCheeseQuesadillas);
+            this.groupBox1.Controls.Add(this.txtTacosNumber);
+            this.groupBox1.Controls.Add(this.chkPops);
+            this.groupBox1.Controls.Add(this.txtReFriedBeansNumber);
+            this.groupBox1.Controls.Add(this.chkFajitas);
+            this.groupBox1.Controls.Add(this.txtFajitasNumber);
+            this.groupBox1.Controls.Add(this.chkReFriedBeans);
+            this.groupBox1.Controls.Add(this.txtPopsNumber);
+            this.groupBox1.Controls.Add(this.chkBurritos);
+            this.groupBox1.Controls.Add(this.txtCheeseQuesadillasNumber);
+            this.groupBox1.Controls.Add(this.chkTacos);
+            this.groupBox1.Location = new System.Drawing.Point(26, 87);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(278, 251);
+            this.groupBox1.TabIndex = 73;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Menu";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 361);
-            this.Controls.Add(this.chkCheeseQuesadillas);
-            this.Controls.Add(this.chkPops);
-            this.Controls.Add(this.chkFajitas);
-            this.Controls.Add(this.chkReFriedBeans);
-            this.Controls.Add(this.chkBurritos);
-            this.Controls.Add(this.chkTacos);
-            this.Controls.Add(this.txtCheeseQuesadillasNumber);
-            this.Controls.Add(this.txtPopsNumber);
-            this.Controls.Add(this.txtFajitasNumber);
-            this.Controls.Add(this.txtReFriedBeansNumber);
-            this.Controls.Add(this.txtBurritosNumber);
-            this.Controls.Add(this.txtTacosNumber);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnOrder);
             this.Controls.Add(this.lblMainTotal);
             this.Controls.Add(this.label5);
@@ -243,6 +255,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Delgados Tacos";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,6 +283,7 @@
         private System.Windows.Forms.CheckBox chkFajitas;
         private System.Windows.Forms.CheckBox chkPops;
         private System.Windows.Forms.CheckBox chkCheeseQuesadillas;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
