@@ -16,21 +16,22 @@ namespace Delgados_Taocs
         {
             InitializeComponent();
         }
-
+        
         private void btnOrder_Click(object sender, EventArgs e)
         {
             double tacosOrdered;
-            double totalTacosPrice;
+            double totalTacosPrice=0;
             double burritosOrdered;
-            double totalBurritosPrice;
+            double totalBurritosPrice=0;
             double refriedbeansOrdered;
-            double totalRefriedbeansPrice;
+            double totalRefriedbeansPrice=0;
             double fajitasOrdered;
-            double totalFajitasPrice;
+            double totalFajitasPrice=0;
             double popsOrdered;
-            double totalPopsPrice;
+            double totalPopsPrice=0;
             double cheesequesadillasOrdered;
-            double totalCheesequesadillasPrice;
+            double totalCheesequesadillasPrice=0;
+            double overAllTotal=0;
 
             if (chkTacos.Checked)
             {
@@ -66,14 +67,18 @@ namespace Delgados_Taocs
                 totalPopsPrice = popsOrdered * 1.00;
                 lblMainTotal.Text = totalPopsPrice.ToString("c");
             }
-
+            
             if (chkCheeseQuesadillas.Checked)
             {
                 cheesequesadillasOrdered = Convert.ToDouble(txtCheeseQuesadillasNumber.Text);
                 totalCheesequesadillasPrice = cheesequesadillasOrdered * 1.75;
                 lblMainTotal.Text = totalCheesequesadillasPrice.ToString("c");
             }
-                Console.WriteLine("we will now throw a NullReferenceException");
+
+            overAllTotal = totalTacosPrice + totalBurritosPrice + totalFajitasPrice + totalPopsPrice + totalCheesequesadillasPrice;
+            lblMainTotal.Text = overAllTotal.ToString("c");
+
+            Console.WriteLine("we will now throw a NullReferenceException");
                 throw new NullReferenceException("this is the exception thrown by the console app");
         }
     }
