@@ -1,0 +1,2 @@
+C:\Users\jh145216\AppData\Local\Temporary Projects\Fizz Buzz Woof\bin\Debug\Fizz Buzz Woof.exe.config
+C:\Users\jh145216\AppData\Local\Temporary Projects\Fizz Buzz Woof\obj\Debug\Fizz Buzz Woof.csprojResolveAssemblyReference.cache
