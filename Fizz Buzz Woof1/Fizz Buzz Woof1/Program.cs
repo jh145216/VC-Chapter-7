@@ -18,9 +18,11 @@ namespace Fizz_Buzz_Woof
                 if (j % 3 == 0) results = "Fizz ";
                 // Step 3 :- Divisible by 5 print Buzz
                 if (j % 5 == 0) results = results + "Buzz";
-                // Step 4 :- Divisible by 3 and 5 print FizzBuzz
+                // Step 4 :- Divisible by 7 print Woof
+                if (j % 7 == 0) results = "Woof";
+                // Step 5 :- Divisible by 3, 5, and 7 print FizzBuzzWoof
 
-                // Step 5 :- Print the number as it is if not divisible ny 3 or 5
+                // Step 6 :- Print the number as it is if not divisible ny 3 or 5
                 if (results.Length == 0) results = j.ToString();
 
                 Console.WriteLine(results);
