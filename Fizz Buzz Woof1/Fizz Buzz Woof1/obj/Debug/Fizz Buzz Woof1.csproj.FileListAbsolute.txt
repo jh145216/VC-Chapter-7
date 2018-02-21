@@ -1,0 +1,6 @@
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Fizz Buzz Woof1\Fizz Buzz Woof1\bin\Debug\Fizz Buzz Woof1.exe.config
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Fizz Buzz Woof1\Fizz Buzz Woof1\bin\Debug\Fizz Buzz Woof1.exe
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Fizz Buzz Woof1\Fizz Buzz Woof1\bin\Debug\Fizz Buzz Woof1.pdb
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Fizz Buzz Woof1\Fizz Buzz Woof1\obj\Debug\Fizz Buzz Woof1.csprojResolveAssemblyReference.cache
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Fizz Buzz Woof1\Fizz Buzz Woof1\obj\Debug\Fizz Buzz Woof1.exe
+C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\Fizz Buzz Woof1\Fizz Buzz Woof1\obj\Debug\Fizz Buzz Woof1.pdb
