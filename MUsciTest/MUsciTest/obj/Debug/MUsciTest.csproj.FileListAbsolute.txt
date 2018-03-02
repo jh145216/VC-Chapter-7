@@ -1,2 +1,0 @@
-C:\Users\jh145216\AppData\Local\Temporary Projects\MUsciTest\bin\Debug\MUsciTest.exe.config
-C:\Users\jh145216\Desktop\Visual C#\VC-Chapter-7\MUsciTest\MUsciTest\bin\Debug\MUsciTest.exe.config
