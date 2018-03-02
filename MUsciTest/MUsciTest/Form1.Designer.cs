@@ -28,46 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnOpen = new System.Windows.Forms.Button();
-            this.btnPlay = new System.Windows.Forms.Button();
-            this.btnStop = new System.Windows.Forms.Button();
+            this.btnsimpleSound = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnOpen
+            // btnsimpleSound
             // 
-            this.btnOpen.Location = new System.Drawing.Point(58, 84);
-            this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(75, 23);
-            this.btnOpen.TabIndex = 0;
-            this.btnOpen.Text = "Open";
-            this.btnOpen.UseVisualStyleBackColor = true;
-            // 
-            // btnPlay
-            // 
-            this.btnPlay.Location = new System.Drawing.Point(172, 84);
-            this.btnPlay.Name = "btnPlay";
-            this.btnPlay.Size = new System.Drawing.Size(75, 23);
-            this.btnPlay.TabIndex = 1;
-            this.btnPlay.Text = "Play";
-            this.btnPlay.UseVisualStyleBackColor = true;
-            // 
-            // btnStop
-            // 
-            this.btnStop.Location = new System.Drawing.Point(287, 84);
-            this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(75, 23);
-            this.btnStop.TabIndex = 2;
-            this.btnStop.Text = "Stop";
-            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnsimpleSound.Location = new System.Drawing.Point(154, 81);
+            this.btnsimpleSound.Name = "btnsimpleSound";
+            this.btnsimpleSound.Size = new System.Drawing.Size(75, 23);
+            this.btnsimpleSound.TabIndex = 0;
+            this.btnsimpleSound.Text = "simpleSound";
+            this.btnsimpleSound.UseVisualStyleBackColor = true;
+            this.btnsimpleSound.Click += new System.EventHandler(this.btnsimpleSound_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(430, 305);
-            this.Controls.Add(this.btnStop);
-            this.Controls.Add(this.btnPlay);
-            this.Controls.Add(this.btnOpen);
+            this.Controls.Add(this.btnsimpleSound);
             this.Name = "Form1";
             this.Text = "MP3";
             this.ResumeLayout(false);
@@ -76,9 +55,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnOpen;
-        private System.Windows.Forms.Button btnPlay;
-        private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.Button btnsimpleSound;
+
 
     }
 }

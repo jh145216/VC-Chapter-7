@@ -21,5 +21,19 @@ namespace MUsciTest
         {
            
         }
+
+        private void btnsimpleSound_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
+
+    private void playSimpleSound()
+    { 
+        SoundPlayer simpleSound = new SoundPlayer(@"c:\Windows\Media\chimes.wav");  
+        simpleSound.Play();  
+    }  
+}
+

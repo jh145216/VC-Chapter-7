@@ -9,8 +9,7 @@ namespace MUsciTest
 {
     class MP3Player
     {
-        [DllImport("winmm.dll")]
-        private static extern long mciSendString(string strCommand,
-            StringBuilder strReturn, int iReturnLength, IntPtr hwndCallback);
+        SoundPlayer simpleSound = new SoundPlayer(strAudioFilePath);
+        simpleSound.PlaySync();
     }
 }
